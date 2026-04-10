@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Restore Physio — London's premier physiotherapy clinic. Expert sports rehabilitation, spinal therapy, and chronic pain management. Book your assessment today.">
+    <meta property="og:title" content="Restore Physio — London's Premier Physiotherapy">
+    <meta property="og:description"
+        content="Move better. Live better. Expert physiotherapy care in the heart of London.">
+    <meta property="og:type" content="website">
+    <title>Restore Physio — London's Premier Physiotherapy Clinic</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-logo">Restore Physio</div>
+        <div class="preloader-bar"></div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#booking">Book Now</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-inner">
+            <a href="#hero" class="nav-logo">Restore Physio</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#process">How It Works</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#contact">Contact</a>
+                <a href="#booking" class="nav-cta" id="navCtaBtn">Book Assessment</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-image">
+            <img src="images/hero-treatment.png" alt="Physiotherapy treatment session">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <span class="label">London's Premier Physiotherapy Clinic</span>
+                <h1>Move Better.<br>Live <span class="accent">Better.</span></h1>
+                <p>Expert physiotherapy in the heart of London. We combine evidence-based treatment with personalised
+                    care to get you back to what you love — pain-free and stronger than before.</p>
+                <div class="hero-buttons">
+                    <a href="#booking" class="btn-primary">Book Your Assessment →</a>
+                    <a href="#services" class="btn-outline">Explore Services</a>
+                </div>
+            </div>
+            <div class="hero-image reveal">
+                <img src="images/clinic-interior.png" alt="Restore Physio modern clinic">
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section-alt" id="about">
+        <div class="container about-grid">
+            <div class="about-image-wrap reveal">
+                <img src="images/doctor-portrait.png" alt="Dr. James Mitchell — Lead Physiotherapist">
+                <div class="about-image-badge">
+                    <div class="badge-number">15+</div>
+                    <div class="badge-text">Years of<br>Excellence</div>
+                </div>
+            </div>
+            <div class="about-content">
+                <span class="label reveal">Meet Your Physiotherapist</span>
+                <h2 class="reveal reveal-delay-1">Dr. James Mitchell<br><span
+                        style="font-size:0.5em;color:var(--text-light);font-weight:400;">BSc (Hons) Physiotherapy • MCSP
+                        • HCPC Registered</span></h2>
+                <p class="about-text reveal reveal-delay-2">With over 15 years of clinical experience treating elite
+                    athletes, post-surgical patients, and individuals with chronic pain, I founded Restore Physio with a
+                    singular vision: to deliver world-class physiotherapy that transforms lives.</p>
+                <p class="about-text reveal reveal-delay-3">Every patient receives a bespoke treatment plan designed
+                    around their unique anatomy, lifestyle, and goals. Because you're not just a diagnosis — you're a
+                    person who deserves to move without limits.</p>
+                <blockquote class="about-quote reveal reveal-delay-4">
+                    "I believe the body has an extraordinary capacity to heal. My role is to guide that process with
+                    precision, compassion, and expertise."
+                </blockquote>
+                <div class="about-stats reveal reveal-delay-5">
+                    <div class="about-stat">
+                        <div class="stat-number" data-target="10000">0</div>
+                        <div class="stat-label">Patients Treated</div>
+                    </div>
+                    <div class="about-stat">
+                        <div class="stat-number" data-target="15">0</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="about-stat">
+                        <div class="stat-number" data-target="98">0</div>
+                        <div class="stat-label">% Satisfaction</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="label reveal">What We Offer</span>
+                <h2 class="reveal reveal-delay-1">Comprehensive Physiotherapy Services</h2>
+                <p class="reveal reveal-delay-2">From elite sports recovery to chronic pain management — every treatment
+                    is evidence-based, hands-on, and tailored to you.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <div class="service-icon">🏃</div>
+                    <h3>Sports Rehabilitation</h3>
+                    <p>Advanced recovery programmes for athletes at every level. Return to peak performance with
+                        confidence and strength.</p>
+                    <a href="#booking" class="service-link">Book Now →</a>
+                </div>
+                <div class="service-card reveal reveal-delay-1">
+                    <div class="service-icon">🦴</div>
+                    <h3>Spinal Therapy</h3>
+                    <p>Specialist treatment for back and neck conditions using manual therapy, mobilisation, and
+                        corrective exercise.</p>
+                    <a href="#booking" class="service-link">Book Now →</a>
+                </div>
+                <div class="service-card reveal reveal-delay-2">
+                    <div class="service-icon">🔄</div>
+                    <h3>Post-Surgical Recovery</h3>
+                    <p>Structured rehabilitation after joint replacement, ACL reconstruction, and other surgical
+                        procedures.</p>
+                    <a href="#booking" class="service-link">Book Now →</a>
+                </div>
+                <div class="service-card reveal reveal-delay-3">
+                    <div class="service-icon">💆</div>
+                    <h3>Chronic Pain Management</h3>
+                    <p>Holistic, multidisciplinary approaches to persistent pain. We treat the root cause, not just the
+                        symptoms.</p>
+                    <a href="#booking" class="service-link">Book Now →</a>
+                </div>
+                <div class="service-card reveal reveal-delay-4">
+                    <div class="service-icon">💻</div>
+                    <h3>Virtual Consultations</h3>
+                    <p>Expert physiotherapy guidance from anywhere. Ideal for follow-ups, exercise programming, and
+                        remote assessments.</p>
+                    <a href="#booking" class="service-link">Book Now →</a>
+                </div>
+                <div class="service-card reveal reveal-delay-5">
+                    <div class="service-icon">🧠</div>
+                    <h3>Wellness & Prevention</h3>
+                    <p>Proactive programmes to prevent injury, improve posture, and optimise movement for long-term
+                        wellbeing.</p>
+                    <a href="#booking" class="service-link">Book Now →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process / How It Works -->
+    <section class="section-alt" id="process">
+        <div class="container">
+            <div class="section-header">
+                <span class="label reveal">How It Works</span>
+                <h2 class="reveal reveal-delay-1">Your Journey to Recovery</h2>
+                <p class="reveal reveal-delay-2">A clear, structured path from initial assessment to full recovery —
+                    guided by expertise at every step.</p>
+            </div>
+            <div class="process-timeline">
+                <div class="process-step reveal">
+                    <div class="step-number">01</div>
+                    <h3>Assessment</h3>
+                    <p>Comprehensive 60-minute evaluation of your condition, movement patterns, and goals.</p>
+                </div>
+                <div class="process-step reveal reveal-delay-1">
+                    <div class="step-number">02</div>
+                    <h3>Diagnosis</h3>
+                    <p>Precise clinical diagnosis using advanced assessment techniques and, where needed, imaging.</p>
+                </div>
+                <div class="process-step reveal reveal-delay-2">
+                    <div class="step-number">03</div>
+                    <h3>Treatment</h3>
+                    <p>Bespoke treatment plan combining manual therapy, exercise prescription, and education.</p>
+                </div>
+                <div class="process-step reveal reveal-delay-3">
+                    <div class="step-number">04</div>
+                    <h3>Recovery</h3>
+                    <p>Progressive rehabilitation with measurable milestones until you're back to full function.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results / Stats -->
+    <section class="results" id="results">
+        <div class="container">
+            <div class="section-header">
+                <span class="label reveal">Proven Results</span>
+                <h2 class="reveal reveal-delay-1">Numbers That Speak Volumes</h2>
+                <p class="reveal reveal-delay-2">Our outcomes are the proof — measured, tracked, and consistently
+                    excellent.</p>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-card reveal">
+                    <span class="stat-number" data-target="10000">0</span><span class="stat-suffix">+</span>
+                    <div class="stat-label">Patients Treated</div>
+                </div>
+                <div class="stat-card reveal reveal-delay-1">
+                    <span class="stat-number" data-target="98">0</span><span class="stat-suffix">%</span>
+                    <div class="stat-label">Patient Satisfaction</div>
+                </div>
+                <div class="stat-card reveal reveal-delay-2">
+                    <span class="stat-number" data-target="15">0</span><span class="stat-suffix">+</span>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-card reveal reveal-delay-3">
+                    <span class="stat-number" data-target="4">0</span><span class="stat-suffix">.9★</span>
+                    <div class="stat-label">Average Google Rating</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="label reveal">Patient Stories</span>
+                <h2 class="reveal reveal-delay-1">Hear From Those We've Helped</h2>
+                <p class="reveal reveal-delay-2">Real patients, real recoveries. Discover why London trusts Restore
+                    Physio.</p>
+            </div>
+            <div class="testimonials-carousel reveal">
+                <div class="testimonials-track" id="testimonialsTrack">
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"After my knee surgery, I was terrified I'd never run again. Dr.
+                            Mitchell designed a recovery programme that had me back on track in 12 weeks. Absolutely
+                            world-class care."</p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">S</div>
+                            <div>
+                                <div class="testimonial-name">Sarah Thompson</div>
+                                <div class="testimonial-role">Marathon Runner</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"I'd been living with chronic back pain for years. Restore Physio
+                            didn't just treat my symptoms — they found the root cause and fixed it. I feel like a new
+                            person."</p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">M</div>
+                            <div>
+                                <div class="testimonial-name">Michael Chen</div>
+                                <div class="testimonial-role">Financial Analyst</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"The virtual consultation service was a game-changer while I was
+                            travelling. Professional, thorough, and the exercise plan was brilliant. Highly recommend."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">E</div>
+                            <div>
+                                <div class="testimonial-name">Emma Richardson</div>
+                                <div class="testimonial-role">Travel Writer</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"As a professional footballer, I need a physio I can trust
+                            completely. Dr. Mitchell's expertise in sports rehabilitation is second to none. He's kept
+                            me on the pitch."</p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">D</div>
+                            <div>
+                                <div class="testimonial-name">Daniel Okafor</div>
+                                <div class="testimonial-role">Professional Footballer</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"The clinic is stunning and the care is impeccable. From reception
+                            to treatment, every detail is thought through. This is what premium healthcare should feel
+                            like."</p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">L</div>
+                            <div>
+                                <div class="testimonial-name">Laura Whitfield</div>
+                                <div class="testimonial-role">Interior Designer</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-controls">
+                    <button class="carousel-btn" id="carouselPrev" aria-label="Previous testimonial">←</button>
+                    <button class="carousel-btn" id="carouselNext" aria-label="Next testimonial">→</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section-alt" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="label reveal">Our Clinic</span>
+                <h2 class="reveal reveal-delay-1">A Space Designed for Healing</h2>
+                <p class="reveal reveal-delay-2">Step inside our modern London clinic — where comfort meets clinical
+                    excellence.</p>
+            </div>
+            <div class="gallery-grid reveal">
+                <div class="gallery-item" data-lightbox><img src="images/clinic-interior.png"
+                        alt="Clinic reception area"></div>
+                <div class="gallery-item" data-lightbox><img src="images/hero-treatment.png"
+                        alt="Treatment in progress"></div>
+                <div class="gallery-item" data-lightbox><img src="images/treatment-closeup.png" alt="Hands-on therapy">
+                </div>
+                <div class="gallery-item" data-lightbox><img src="images/doctor-portrait.png" alt="Dr. Mitchell"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close lightbox">✕</button>
+        <img src="" alt="Gallery image" id="lightboxImg">
+    </div>
+
+    <!-- Blog -->
+    <section id="blog">
+        <div class="container">
+            <div class="section-header">
+                <span class="label reveal">Expert Insights</span>
+                <h2 class="reveal reveal-delay-1">Resources & Articles</h2>
+                <p class="reveal reveal-delay-2">Evidence-based guidance to help you move better, recover faster, and
+                    live pain-free.</p>
+            </div>
+            <div class="blog-grid">
+                <div class="blog-card reveal">
+                    <div class="blog-card-image"><img src="images/treatment-closeup.png" alt="Physiotherapy techniques">
+                    </div>
+                    <div class="blog-card-body">
+                        <span class="blog-tag">Recovery</span>
+                        <h3>5 Exercises You Should Do After Knee Surgery</h3>
+                        <p>The first 6 weeks after knee surgery are critical. Here are the exercises that accelerate
+                            your recovery.</p>
+                        <div class="blog-meta"><span>8 min read</span><span>March 2026</span></div>
+                    </div>
+                </div>
+                <div class="blog-card reveal reveal-delay-1">
+                    <div class="blog-card-image"><img src="images/hero-treatment.png" alt="Spinal health"></div>
+                    <div class="blog-card-body">
+                        <span class="blog-tag">Prevention</span>
+                        <h3>The Desk Worker's Guide to a Healthy Spine</h3>
+                        <p>Spending 8+ hours at a desk? Here's how to protect your spine and prevent chronic back pain.
+                        </p>
+                        <div class="blog-meta"><span>6 min read</span><span>March 2026</span></div>
+                    </div>
+                </div>
+                <div class="blog-card reveal reveal-delay-2">
+                    <div class="blog-card-image"><img src="images/clinic-interior.png" alt="Sports rehabilitation">
+                    </div>
+                    <div class="blog-card-body">
+                        <span class="blog-tag">Sports</span>
+                        <h3>How Elite Athletes Use Physiotherapy to Stay at the Top</h3>
+                        <p>Discover the physiotherapy techniques used by Premier League footballers and Olympic
+                            athletes.</p>
+                        <div class="blog-meta"><span>10 min read</span><span>February 2026</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking -->
+    <section class="booking" id="booking">
+        <div class="container">
+            <div class="section-header">
+                <span class="label reveal">Book Now</span>
+                <h2 class="reveal reveal-delay-1">Start Your Recovery Today</h2>
+                <p class="reveal reveal-delay-2">Take the first step towards pain-free living. Book your initial
+                    assessment online.</p>
+            </div>
+            <div class="booking-grid">
+                <div class="booking-info reveal">
+                    <h3>What to Expect</h3>
+                    <p>Your initial assessment is a comprehensive 60-minute session where we'll evaluate your condition,
+                        discuss your goals, and create your personalised treatment plan.</p>
+                    <div class="booking-features">
+                        <div class="booking-feature">
+                            <div class="feature-icon">🕐</div>
+                            <span>60-minute initial assessment</span>
+                        </div>
+                        <div class="booking-feature">
+                            <div class="feature-icon">📋</div>
+                            <span>Detailed diagnosis & treatment plan</span>
+                        </div>
+                        <div class="booking-feature">
+                            <div class="feature-icon">🏥</div>
+                            <span>State-of-the-art clinic facilities</span>
+                        </div>
+                        <div class="booking-feature">
+                            <div class="feature-icon">💳</div>
+                            <span>Insurance & self-pay accepted</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="booking-form reveal reveal-delay-1" id="bookingForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="bookName">Full Name</label>
+                            <input type="text" id="bookName" placeholder="Your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="bookEmail">Email Address</label>
+                            <input type="email" id="bookEmail" placeholder="you@example.com" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="bookPhone">Phone Number</label>
+                            <input type="tel" id="bookPhone" placeholder="+44 ..." required>
+                        </div>
+                        <div class="form-group">
+                            <label for="bookService">Service</label>
+                            <select id="bookService" required>
+                                <option value="">Select a service</option>
+                                <option value="initial">Initial Assessment (£120)</option>
+                                <option value="sports">Sports Rehabilitation</option>
+                                <option value="spinal">Spinal Therapy</option>
+                                <option value="postsurgical">Post-Surgical Recovery</option>
+                                <option value="chronic">Chronic Pain Management</option>
+                                <option value="virtual">Virtual Consultation</option>
+                                <option value="wellness">Wellness & Prevention</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="bookDate">Preferred Date</label>
+                        <input type="date" id="bookDate" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="bookMessage">Additional Notes (optional)</label>
+                        <textarea id="bookMessage" rows="3" placeholder="Tell us about your condition..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-book">Book Your Assessment →</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="section-alt" id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <span class="label reveal">Pricing</span>
+                <h2 class="reveal reveal-delay-1">Transparent, Fair Pricing</h2>
+                <p class="reveal reveal-delay-2">No hidden fees. No surprises. Just exceptional care at every tier.</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card reveal">
+                    <div class="pricing-tier">Initial</div>
+                    <div class="pricing-price">£120<span>/session</span></div>
+                    <p class="pricing-desc">Comprehensive first visit with full assessment and diagnosis.</p>
+                    <ul class="pricing-features">
+                        <li>60-minute assessment</li>
+                        <li>Full clinical diagnosis</li>
+                        <li>Personalised treatment plan</li>
+                        <li>Take-home exercise sheet</li>
+                    </ul>
+                    <a href="#booking" class="btn-pricing">Book Initial Assessment</a>
+                </div>
+                <div class="pricing-card featured reveal reveal-delay-1">
+                    <div class="pricing-tier">Standard</div>
+                    <div class="pricing-price">£85<span>/session</span></div>
+                    <p class="pricing-desc">Follow-up treatment sessions for ongoing rehabilitation.</p>
+                    <ul class="pricing-features">
+                        <li>45-minute session</li>
+                        <li>Manual therapy treatment</li>
+                        <li>Progressive exercise plan</li>
+                        <li>Progress tracking</li>
+                        <li>Email support between visits</li>
+                    </ul>
+                    <a href="#booking" class="btn-pricing">Book Standard Session</a>
+                </div>
+                <div class="pricing-card reveal reveal-delay-2">
+                    <div class="pricing-tier">Premium</div>
+                    <div class="pricing-price">£150<span>/session</span></div>
+                    <p class="pricing-desc">Extended sessions with advanced techniques and full support.</p>
+                    <ul class="pricing-features">
+                        <li>75-minute extended session</li>
+                        <li>Advanced manual therapy</li>
+                        <li>Real-time video gait analysis</li>
+                        <li>Customised rehab programme</li>
+                        <li>Priority booking & WhatsApp support</li>
+                    </ul>
+                    <a href="#booking" class="btn-pricing">Book Premium Session</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq">
+        <div class="container">
+            <div class="section-header">
+                <span class="label reveal">FAQ</span>
+                <h2 class="reveal reveal-delay-1">Frequently Asked Questions</h2>
+                <p class="reveal reveal-delay-2">Everything you need to know before your first visit.</p>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item reveal">
+                    <button class="faq-question">Do I need a GP referral to book? <span
+                            class="faq-icon">+</span></button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">No, you don't need a referral. You can book directly with us.
+                            We're registered with the HCPC and CSP, so you can self-refer with confidence. If you do
+                            have a referral letter, please bring it to your first appointment.</div>
+                    </div>
+                </div>
+                <div class="faq-item reveal reveal-delay-1">
+                    <button class="faq-question">What should I wear to my appointment? <span
+                            class="faq-icon">+</span></button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Wear comfortable, loose-fitting clothing that allows us to access
+                            the area being treated. For lower limb issues, shorts are ideal. We also have changing
+                            facilities and gowns available at the clinic.</div>
+                    </div>
+                </div>
+                <div class="faq-item reveal reveal-delay-2">
+                    <button class="faq-question">Do you accept health insurance? <span
+                            class="faq-icon">+</span></button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Yes, we're recognised by all major health insurers including Bupa,
+                            AXA Health, Vitality, Aviva, and Cigna. Please check with your insurer about
+                            pre-authorisation requirements before your first visit.</div>
+                    </div>
+                </div>
+                <div class="faq-item reveal reveal-delay-3">
+                    <button class="faq-question">How many sessions will I need? <span class="faq-icon">+</span></button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">This varies depending on your condition. Many patients see
+                            significant improvement within 3-6 sessions. We'll give you an honest estimate at your
+                            initial assessment and keep you informed of your progress throughout treatment.</div>
+                    </div>
+                </div>
+                <div class="faq-item reveal reveal-delay-4">
+                    <button class="faq-question">What is your cancellation policy? <span
+                            class="faq-icon">+</span></button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">We require 24 hours' notice for cancellations or rescheduling.
+                            Late cancellations or no-shows may incur a charge of 50% of the session fee. We understand
+                            emergencies happen and will always be flexible where possible.</div>
+                    </div>
+                </div>
+                <div class="faq-item reveal reveal-delay-5">
+                    <button class="faq-question">Can I book a virtual consultation? <span
+                            class="faq-icon">+</span></button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Absolutely. Virtual consultations are available via secure video
+                            call. They're ideal for follow-ups, exercise programme reviews, and conditions that don't
+                            require hands-on treatment. Book online and you'll receive a video link before your
+                            appointment.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section-alt" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="label reveal">Get In Touch</span>
+                <h2 class="reveal reveal-delay-1">Contact Us</h2>
+                <p class="reveal reveal-delay-2">Have a question? Ready to book? We'd love to hear from you.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="reveal">
+                    <div class="contact-info-list">
+                        <div class="contact-info-item">
+                            <div class="info-icon">📍</div>
+                            <div>
+                                <h4>Visit Us</h4>
+                                <p>42 Harley Street, Marylebone<br>London W1G 9PL</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="info-icon">📞</div>
+                            <div>
+                                <h4>Call Us</h4>
+                                <p>+44 (0) 20 7946 0958</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="info-icon">✉️</div>
+                            <div>
+                                <h4>Email Us</h4>
+                                <p>hello@restorephysio.co.uk</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="info-icon">🕐</div>
+                            <div>
+                                <h4>Opening Hours</h4>
+                                <p>Mon — Fri: 7:00 AM – 8:00 PM<br>Saturday: 8:00 AM – 4:00 PM<br>Sunday: Closed</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrap reveal reveal-delay-1">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="contactName">Your Name</label>
+                                <input type="text" id="contactName" placeholder="Full name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactEmail">Email</label>
+                                <input type="email" id="contactEmail" placeholder="you@example.com" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactSubject">Subject</label>
+                            <input type="text" id="contactSubject" placeholder="How can we help?">
+                        </div>
+                        <div class="form-group">
+                            <label for="contactMessage">Message</label>
+                            <textarea id="contactMessage" rows="5" placeholder="Tell us more..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn-contact">Send Message →</button>
+                    </form>
+                </div>
+            </div>
+            <div class="contact-map reveal" style="margin-top: 3rem;">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.8676088095!2d-0.14877!3d51.5188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ad10ad89a0b%3A0x3e0c3b71d7420d7a!2sHarley%20St%2C%20London!5e0!3m2!1sen!2suk!4v1634567890123!5m2!1sen!2suk"
+                    width="100%" height="100%" style="border:0; border-radius: var(--radius-md);" allowfullscreen
+                    loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#hero" class="nav-logo">Restore Physio</a>
+                    <p>London's premier physiotherapy clinic. Expert care, exceptional results, extraordinary people.
+                    </p>
+                    <div class="footer-badges">
+                        <span class="footer-badge">HCPC Registered</span>
+                        <span class="footer-badge">CSP Member</span>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#testimonials">Testimonials</a>
+                    <a href="#blog">Blog</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <a href="#services">Sports Rehabilitation</a>
+                    <a href="#services">Spinal Therapy</a>
+                    <a href="#services">Post-Surgical Recovery</a>
+                    <a href="#services">Chronic Pain</a>
+                    <a href="#services">Virtual Consult</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Newsletter</h4>
+                    <p style="color:rgba(255,255,255,0.6);font-size:0.9rem;margin-bottom:1rem;">Get expert tips and
+                        clinic news delivered to your inbox.</p>
+                    <div class="footer-newsletter">
+                        <input type="email" placeholder="Your email address">
+                        <button class="btn-newsletter">Subscribe →</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2026 Restore Physio. All rights reserved.</span>
+                <div class="footer-socials">
+                    <a href="#" aria-label="Instagram">📷</a>
+                    <a href="#" aria-label="LinkedIn">💼</a>
+                    <a href="#" aria-label="Twitter">🐦</a>
+                    <a href="#" aria-label="Facebook">📘</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
