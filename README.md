@@ -94,8 +94,7 @@ No dependencies — pure HTML/CSS/JS.
 ## 👤 Author
 
 **Shrestha Singh**
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
-- LinkedIn: [Shrestha Singh](https://linkedin.com/in/YOUR_LINKEDIN)
+- GitHub: [[@shresth singh]](https://github.com/YOUR_USERNAME](https://github.com/shresthasingh2005-hash))
 
 ---
 
